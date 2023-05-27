@@ -1,0 +1,121 @@
+body {
+    color: rgb(234, 226, 234);
+    margin: 0px;
+    padding: 0px;
+    background: url('pexels-vanessa-loring-5965658.jpg');
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.left {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    left: 10px;
+    margin: 20px;
+}
+
+.left img {
+    width: 100px;
+
+
+}
+
+.left div {
+    text-align: center;
+    line-height: 10px;
+    font-size: 15px;
+}
+
+.mid {
+    display: block;
+    position: auto;
+    width: 40%;
+    margin: 20px auto;
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+
+}
+
+.bar {
+    display: inline-block;
+
+}
+
+.bar li {
+    display: inline-block;
+    font-size: 25px;
+
+
+}
+
+.bar li a {
+    text-decoration: none;
+    color: white;
+    padding: 30px 10px;
+
+}
+
+.bar li a:hover {
+    color: grey;
+
+}
+
+.btm {
+    margin: 0px 10px;
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    padding: 4px 16px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.btm:hover {
+    color: grey;
+
+}
+
+.container {
+    margin: 120px 20px;
+    padding: 30px 30px;
+    width: 36%;
+}
+
+.form input {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    display: block;
+    width: 300px;
+    padding: 1px;
+    border: 2px solid white;
+    margin: 10px auto;
+    font-size: 25px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    text-align: center;
+    color: purple;
+}
+
+.container button {
+    display: block;
+    width: 30%;
+    margin: 20px auto;
+    background-color: white;
+    color: black;
+}
+
+.container button:hover {
+    color: grey;
+}
